@@ -9,9 +9,10 @@
             uk-toggle="target: #nav-offcanvas"
             uk-navbar-toggle-icon
             ></button
-            ><a class="uk-navbar-item uk-logo" href="index.html"
-            ><img src="images/logo.svg" width="90" height="32" alt="Logo"
-            /></a>
+            >
+            <div style="width:90px height:32px">
+                @include('components.elements.logo')
+            </div>
             <nav class="uk-visible@m">
             <ul class="uk-navbar-nav">
                 <li>

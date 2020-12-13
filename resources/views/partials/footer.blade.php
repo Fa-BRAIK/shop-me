@@ -8,26 +8,20 @@
             uk-grid
         >
             <div>
-            <a class="uk-logo" href="index.html"
-                ><img
-                src="images/logo-inverse.svg"
-                width="90"
-                height="32"
-                alt="Logo"
-            /></a>
-            <p class="uk-text-small">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                ut mauris eros. Nulla quis ante sed tortor efficitur
-                facilisis.
-            </p>
-            <ul class="uk-iconnav">
-                <li><a href="#" title="Facebook" uk-icon="facebook"></a></li>
-                <li><a href="#" title="Twitter" uk-icon="twitter"></a></li>
-                <li><a href="#" title="YouTube" uk-icon="youtube"></a></li>
-                <li>
-                <a href="#" title="Instagram" uk-icon="instagram"></a>
-                </li>
-            </ul>
+                @include('components.elements.logo')
+                <p class="uk-text-small">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                    ut mauris eros. Nulla quis ante sed tortor efficitur
+                    facilisis.
+                </p>
+                <ul class="uk-iconnav">
+                    <li><a href="#" title="Facebook" uk-icon="facebook"></a></li>
+                    <li><a href="#" title="Twitter" uk-icon="twitter"></a></li>
+                    <li><a href="#" title="YouTube" uk-icon="youtube"></a></li>
+                    <li>
+                    <a href="#" title="Instagram" uk-icon="instagram"></a>
+                    </li>
+                </ul>
             </div>
             <div>
             <nav class="uk-grid-small uk-child-width-1-2" uk-grid>
