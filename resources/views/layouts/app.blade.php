@@ -18,9 +18,11 @@
   </head>
   <body>
     <div class="uk-offcanvas-content">
-        @extends('partials.header')
+        @include('partials.header')
 
         @yield('content')
+
+        @include('partials.footer')
     </div>
 
     @yield('js')

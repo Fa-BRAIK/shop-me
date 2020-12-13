@@ -1,13 +1,5 @@
 <header>
-    @extends('components.default.nav')
-    @extends('components.default.system-bar')
+    @includeWhen(isset($announcement), 'components.default.header.system-bar', [ 'announcement' => $announcement ?? '' ])
 
-    @isset($announcement)
-        @section('system-bar')
-            @parent
-        @endsection
-    @else
-        @section('system-bar')
-        @endsection
-    @endisset
+    @include('components.default.header.nav')
 </header>

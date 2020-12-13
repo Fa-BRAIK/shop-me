@@ -12,7 +12,7 @@ class="uk-navbar-container uk-light uk-visible@m tm-toolbar-container"
                     class="uk-margin-xsmall-right"
                     uk-icon="icon: receiver; ratio: .75;"
                     ></span
-                    ><span class="tm-pseudo">8 800 799 99 99</span></a
+                    ><span class="tm-pseudo"> 8 800 799 99 99</span></a
                 >
                 </li>
                 <li>
