@@ -23,6 +23,9 @@
         @yield('content')
 
         @include('partials.footer')
+
+        @include('partials.offcanvas.nav')
+        @include('partials.offcanvas.cart')
     </div>
 
     @yield('js')
